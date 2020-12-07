@@ -1,0 +1,148 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  border: 0ch;
+}
+body {
+  font-family: Poppins;
+  background: linear-gradient(to right, #ede574, #e1f5c4) fixed;
+}
+
+.todoapp > .goals {
+  margin: auto;
+  display: flex;
+  margin-top: 5%;
+  border-radius: 25px;
+  width: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc048;
+}
+
+.todoapp > .goals > ul {
+  list-style: none;
+  padding: 16px;
+  text-align: center;
+  width: 80%;
+}
+.todoapp > .goals > ul > * {
+  list-style: none;
+  padding: 7px;
+  border: 3px solid white;
+  margin: 10px;
+  width: 100%;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+header > em > h1 {
+  text-align: center;
+  width: 600px;
+  background-color: #ffbe76;
+  margin: auto;
+  margin-top: 5%;
+  border: 3px solid #ffbe76;
+  border-radius: 25px;
+  cursor: default;
+  box-shadow: 0 20px #999;
+}
+
+.input {
+  margin-top: 20px;
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  flex-wrap: wrap;
+}
+.input > input[type="text"] {
+  margin: 5px;
+  padding: 10px;
+  line-height: 42px;
+  display: inline;
+  font-size: 22px;
+  font-family: Poppins;
+  background-color: #d1d8e0;
+  text-transform: capitalize;
+  border: 3px solid#d1d8e0;
+  border-radius: 25px;
+  width: 400px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+}
+
+.input > button {
+  margin: 5px;
+  padding: 10px;
+  display: inline;
+  line-height: 10px;
+  color: white;
+  font-size: 20px;
+  font-style: inherit;
+  font-family: Poppins;
+  background-color: #44bd32;
+  text-transform: capitalize;
+  border: 3px solid whitesmoke;
+  border-radius: 25px;
+  width: 200px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+  position: relative;
+}
+input:focus::placeholder {
+  color: transparent;
+  transition: color 1s ease-in-out;
+}
+input::placeholder {
+  transition: color 1s ease-in-out;
+}
+li {
+  box-shadow: 0 5px dimgray;
+}
+
+li:hover {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  cursor: pointer;
+  background-color: #d63031;
+  color: #fff;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+li:active {
+  transform: translateY(5px);
+  transition: 0.2s transform;
+}
+
+button:active {
+  transform: translateY(10px);
+  background-color: #44bd32;
+  transition: 0.2s;
+}
+button:nth-child(3) {
+  background-color: #f1c40f;
+  color: black;
+  width: 300px;
+  position: absolute;
+  top: 39%;
+}
+
+span {
+  position: absolute;
+  display: inline-block;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0%;
+  left: 38%;
+  top: -20px;
+  transition: all 10s;
+}
